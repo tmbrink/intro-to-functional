@@ -1,4 +1,2 @@
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
-const fullName = name || 'buddy';
-const channelName = getChannelName(channel);
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
+const intermediateAppPath = path.join(buildOutputPath, 'app');
