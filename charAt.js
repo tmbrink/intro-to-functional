@@ -1,3 +1,3 @@
-const isTabInView = () => !document.hidden;
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-const results = await Promise.all(resultingPromises);
+console.log("0 && 1 = "+(0 && 1));
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+var arr1 = "john".split('');
