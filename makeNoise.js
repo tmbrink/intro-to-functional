@@ -1,3 +1,3 @@
-const isEmptyArray = arr => !arr.length;
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+console.log( "A" - "B" + "2");
+const updated = numbers.filter(element => element > 6);
