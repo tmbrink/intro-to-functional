@@ -1,2 +1,3 @@
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+console.log("1 && 2 = "+(1 && 2));
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const merge = (a, b) => a.concat(b);
