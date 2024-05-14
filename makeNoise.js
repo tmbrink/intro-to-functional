@@ -1,2 +1,1 @@
-console.log(+"1" +  "1" + "2");
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
