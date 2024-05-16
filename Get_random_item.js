@@ -1,3 +1,2 @@
-var arr2 = arr1.reverse();
-var DELIM_SIZE = 4;
-const resultingPromises = urls.map((url) => makHttpRequest(url));
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
