@@ -1,2 +1,2 @@
-const merge = [...new Set(a.concat(b))];
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+console.log(1 +  +"2" + "2");
