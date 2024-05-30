@@ -1,2 +1,3 @@
-var pattern = {};
-console.log( "A" - "B" + 2);
+var arr3 = "jones".split('');
+const executableName = getExecutableName(channel, appName);
+const arrayContains = (arr, element) => arr.includes(element);
