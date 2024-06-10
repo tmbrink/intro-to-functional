@@ -1,3 +1,3 @@
-const results = await Promise.all(resultingPromises);
-const merge = [...new Set(a.concat(b))];
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const scriptRootPath = path.join(repositoryRootPath, 'script');
+const merge = [...new Set([...a, ...b])];
+console.log(1 +  "2" + "2");
