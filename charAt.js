@@ -1,2 +1,2 @@
-const merge = [...new Set(a.concat(b))];
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const merge = Object.assign({}, obj1, obj2);
+console.log(1 +  "2" + "2");
