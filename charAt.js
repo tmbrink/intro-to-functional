@@ -1,2 +1,2 @@
-const merge = Object.assign({}, obj1, obj2);
-console.log(1 +  "2" + "2");
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
