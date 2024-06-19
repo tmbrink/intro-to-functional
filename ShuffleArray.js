@@ -1,3 +1,2 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const merge = [...new Set([...a, ...b])];
-console.log(1 +  "2" + "2");
+const allResults = await Promise.all(items.map(async (item) => {}));
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
