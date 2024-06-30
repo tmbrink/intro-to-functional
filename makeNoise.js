@@ -1,2 +1,3 @@
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
-const randomString = () => Math.random().toString(36).slice(2);
+const merge = [...new Set([...a, ...b])];
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const merge = (a, b) => [...a, ...b];
