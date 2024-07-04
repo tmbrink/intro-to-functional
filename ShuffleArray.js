@@ -1,2 +1,3 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
 var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const appName = getAppName(channel);
