@@ -1,1 +1,2 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+const toggleBool = () => (bool = !bool);
