@@ -1,2 +1,2 @@
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const toggleBool = () => (bool = !bool);
+const arrayContains = (arr, element) => arr.includes(element);
+var c = new Counter(); c.add(); c.add(); c.add();
