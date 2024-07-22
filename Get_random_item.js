@@ -1,1 +1,2 @@
-const isEven = (num) => num % 2 === 0;
+var arr1 = "john".split('');
+const minNumber = arr => Math.min(...arr);
