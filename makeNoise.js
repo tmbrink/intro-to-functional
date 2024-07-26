@@ -1,2 +1,2 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const executableName = getExecutableName(channel, appName);
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
