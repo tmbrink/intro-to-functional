@@ -1,3 +1,3 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-console.log("0 && 1 = "+(0 && 1));
+const result = await makeHttpRequest(url);
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const goToTop = () => window.scrollTo(0, 0);
