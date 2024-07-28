@@ -1,2 +1,1 @@
-const arrayContains = (arr, element) => arr.includes(element);
-const fullName = name || 'buddy';
+const intermediateAppPath = path.join(buildOutputPath, 'app');
