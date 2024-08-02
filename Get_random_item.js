@@ -1,3 +1,1 @@
-const result = await makeHttpRequest(url);
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const goToTop = () => window.scrollTo(0, 0);
+const buildOutputPath = path.join(repositoryRootPath, 'out');
